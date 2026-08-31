@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 namespace Soenneker.ElevenLabs.OpenApiClientUtil.Abstract;
 
 /// <summary>
-/// Exposes a cached OpenAPI client instance.
+/// Provides lazy access to a cached ElevenLabs API client.
 /// </summary>
 public interface IElevenLabsOpenApiClientUtil: IDisposable, IAsyncDisposable
 {
     /// <summary>
-    /// Gets the value.
+    /// Gets the cached ElevenLabs API client, creating it on first use.
     /// </summary>
     /// <param name="cancellationToken">The cancellation token.</param>
-    /// <returns>A task containing the result of the operation.</returns>
+    /// <returns>The generated ElevenLabs API client.</returns>
     ValueTask<ElevenLabsOpenApiClient> Get(CancellationToken cancellationToken = default);
 }
