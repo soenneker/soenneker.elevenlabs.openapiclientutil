@@ -12,6 +12,7 @@ using Soenneker.Utils.AsyncSingleton;
 
 namespace Soenneker.ElevenLabs.OpenApiClientUtil;
 
+/// <inheritdoc cref="IElevenLabsOpenApiClientUtil" />
 public sealed class ElevenLabsOpenApiClientUtil : IElevenLabsOpenApiClientUtil
 {
     private readonly AsyncSingleton<ElevenLabsOpenApiClient> _client;
