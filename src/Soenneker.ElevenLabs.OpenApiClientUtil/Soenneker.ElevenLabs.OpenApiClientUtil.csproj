@@ -43,6 +43,6 @@
     <ItemGroup>
         <PackageReference Include="Soenneker.ElevenLabs.OpenApiClient" Version="4.0.103" />
         <PackageReference Include="Soenneker.ElevenLabs.HttpClients" Version="4.0.95" />
-        <PackageReference Include="Soenneker.Utils.AsyncSingleton" Version="4.0.831" />
+        <PackageReference Include="Soenneker.Utils.AsyncSingleton" Version="4.0.832" />
     </ItemGroup>
 </Project>
