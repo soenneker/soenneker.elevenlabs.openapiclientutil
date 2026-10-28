@@ -44,7 +44,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.ElevenLabs.OpenApiClient" Version="11.0.122" />
+        <PackageReference Include="Soenneker.ElevenLabs.OpenApiClient" Version="11.0.124" />
         <PackageReference Include="Soenneker.ElevenLabs.HttpClients" Version="11.0.162" />
     </ItemGroup>
 </Project>
